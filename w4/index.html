@@ -1,46 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Jaime Zuspann">
-    <meta name="description" content="This page gives information on why I am taking the course CIT85">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Jaime Zuspann" />
+    <meta
+      name="description"
+      content="This page gives information on why I am taking the course CIT85"
+    />
     <title>Why I'm Taking CIT85</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="main.css" type="text/css">
-</head>
-<body>
-  <nav>
-    <ul>
-      <li><a href="/">home</a></li>
-      <li><a href="goals.html">goals</a></li>
-      <li><a href="learn-more.html">learn more</a></li>
-    </ul>
-  </nav>
-  <section>
-    <h1>HTML is great to learn</h1>
-    <p>There are a few reasons you should learn HTML:</p>
-    <ul>
-      <li>websites are built with HTML</li>
-      <li>other libraries and languages use HTML, or HTML like markup languages</li>
-      <li>it's always great to learn new things</li>
-      <li>knowing HTML is a highly desirable skill to employers</li>
-    </ul> 
-  </section>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+  </head>
+  <body>
+    <h1 class="page-title">About CIT85</h1>
+    <header>
+      <nav aria-label="primary-navigation">
+        <h2 style="display: none">Main Site Navigation</h2>
+        <ul>
+          <li><a href="/" class="active">home</a></li>
+          <li><a href="goals.html">goals</a></li>
+          <li><a href="learn-more.html">learn more</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
 
-  <section>
-    <h1>Websites I like to visit:</h1>
-    <ol>
-      <li><a href="https://youtube.com" target="_blank">YouTube</a>: it's a great place to learn a whole lot of different things for free.</li>
-      <li><a href="https://stackoverflow.com" target="_blank">Stack Overflow</a>: This is a great website for any coding questions you encounter.</li>
-      <li><a href="https://duckduckgo.com/" target="_blank">Duck Duck Go</a>: Because I don't trust Google</li>
-    </ol>
-  </section>
+      <h2>This site is about what I'm learning in CIT85</h2>
+      <article>
+        <h3>HTML</h3>
+        <p>HTML defines the structure and content of the page.</p>
+        <table>
+          <caption>Tags</caption>
+          <tr>
+            <th>tag</th>
+            <th>description</th>
+            <th>special attributes</th>
+            <th>self-closing</th>
+          </tr>
+          <tr>
+            <th>&lt;html&gt;</th>
+            <td>contains all tags and content</td>
+            <td>-</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;head&gt;</th>
+            <td>contains information for the page</td>
+            <td>-</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;meta&gt;</th>
+            <td>describes metadata for the page; is placed within &lt;head&gt;</td>
+            <td>name, content, charset</td>
+            <td>yes</td>
+          </tr>
+          <tr>
+            <th>&lt;link&gt;</th>
+            <td>defines relationship between current document and external resource; is placed within &lt;head&gt;</td>
+            <td>rel, href</td>
+            <td>yes</td>
+          </tr>
+          <tr>
+            <th>&lt;title&gt;</th>
+            <td>contains the title for the page; is placed within &lt;head&gt;</td>
+            <td>-</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;body&gt;</th>
+            <td>contains all content that is displayed on the page</td>
+            <td>-</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;main&gt;</th>
+            <td>semantic tag that contains the main content of the page</td>
+            <td>-</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;header&gt;</th>
+            <td>semantic tag that contains content for the header of the page, such as title and nav</td>
+            <td>-</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;footer&gt;</th>
+            <td>semantic tag that contains content for the footer of the page, such as copyright and contact info</td>
+            <td>-</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;nav&gt;</th>
+            <td>semantic tag that contains links for navigation through the site, often organized in &lt;ul&gt;</td>
+            <td>-</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;section&gt;</th>
+            <td>semantic tag that defines a section of content that can be grouped together logically</td>
+            <td>-</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;article&gt;</th>
+            <td>semantic tag that contains a unit of content on a distinct topic, often starting with a heading that describes it</td>
+            <td>-</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;aside&gt;</th>
+            <td>semantic tag that contains content that refers to or adds information to another part of the page, or contains a side navigation</td>
+            <td>-</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;span&gt;</th>
+            <td>non-semantic tag that is used to add specific styles to a small portion of content; should be used rarely and when adding a class doesn't make sense</td>
+            <td>style is often defined inline</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;div&gt;</th>
+            <td>non-semantic tag that is used to section off a piece of content; should be used rarely, choosing an appropriate semantic tag whenever possible; short for divider</td>
+            <td>-</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;</th>
+            <td>heading tags that define content based on its importance on the page (h1 is most important, h6 is least important); often, but not neccessarily, have sizes that correspond with the heading (h1 is often the largest)</td>
+            <td>-</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;p&gt;</th>
+            <td>paragraph tag that holds text content, often in large amounts</td>
+            <td>-</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;</th>
+            <td>unordered list, ordered list, and list item tags that hold content to be displayed as a list</td>
+            <td>-</td>
+            <td>no</td>
+          </tr>
+          <tr>
+            <th>&lt;img&gt;</th>
+            <td>tag to display an image</td>
+            <td>src, alt, width, height</td>
+            <td>yes</td>
+          </tr>
+        </table>
+      </article>
 
-  <hr>
+      <article>
+        <h1>CSS</h1>
+        <p>CSS defines the styles and layout of the page. It gives beauty and interest to the otherwise boring content.</p>
+        <ol>
+          <li>
+            <h3>Selectors</h3>
+            <p>This is how you specify what element to target with the associated ruleset.</p>
+          </li>
+          <li>
+            <h3>Specificity</h3>
+            <p>This is how the browser determines which rule to apply in a conflict. Here is a <a href="https://specificity.keegan.st/">specificity calculator</a>.</p>
+          </li>
+          <li>
+            <h3>Inheritance</h3>
+            <p>Most tags inherit the styles of their parents. Form elements are an exception.</p>
+          </li>
+        </ol>
+      </article>
 
-  <footer>
-    <p>&copy; JaimeAdele</p>
-    <a href="https://github.com/CIT85">CIT85 GitHub</a>
-  </footer>
-</body>
+      <aside>
+        <h2>Outline</h2>
+        <p>This is the outline of this page. It's not incredibly interesting.</p>
+        <img
+          src="img/outline.png"
+          alt="page outline"
+          width="600"
+          height="170"
+        />
+      </aside>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p>&copy; JaimeAdele</p>
+      <a href="https://github.com/CIT85">CIT85 GitHub</a>
+    </footer>
+  </body>
 </html>
