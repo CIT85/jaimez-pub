@@ -8,8 +8,16 @@ html {
 
 body {
   padding: 30px 80px;
-  background-color: #333;
+  background-color: #262322;
   color: white;
+}
+
+h1 {
+  color: #FF0035;
+}
+
+h2 {
+  color: #0091AD;
 }
 
 nav {
@@ -47,7 +55,7 @@ table,
 th,
 tr,
 td {
-  border: 2px dotted lime;
+  border: 2px dotted #FF0035;
   border-collapse: collapse;
   padding: 5px;
 }
@@ -58,12 +66,12 @@ table {
 }
 
 th {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   text-align: left;
 }
 
 a {
-  color: lime;
+  color: #0091AD;
 }
 a:hover {
   color: rgb(0, 190, 0);
@@ -84,10 +92,42 @@ button:hover {
   background-color: rgb(0, 190, 0);
 }
 
+img.right {
+  float: right;
+  clear: both;
+  margin: 20px 0 20px 20px;
+}
+
 .active {
   background-color: rgb(0, 152, 0);
 }
 
 .page-title {
   float: left;
+}
+
+.content {
+  background-color: #262322;
+  margin: 25px 25px;
+  padding: 5px;
+}
+
+.padding {
+  background-color: #0091AD;
+  margin: 25px 25px;
+  padding: 5px;
+}
+
+.border {
+  background-color: #FF0035;
+  color: white;
+  margin: 25px 25px;
+  padding: 5px;
+}
+
+.margin {
+  background-color: lime;
+  color: black;
+  padding: 5px;
+  width: 25vw;
 }
